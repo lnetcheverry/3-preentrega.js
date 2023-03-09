@@ -1,0 +1,35 @@
+h1 {
+    color: #ab22d4;
+}
+
+h2 {
+    color: #ab22d4;
+}
+h3 {
+    color: #ab22d4;
+}
+h4 {
+    color: #ab22d4;
+}
+.imgProductos {
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
+    margin-top: 1.5rem;
+}
+
+.colorBoton {
+    color: black;
+    background-color: #ab22d4;
+}
+
+.colorBoton:hover {
+    background-color: #ab22d4;
+    color:black;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
