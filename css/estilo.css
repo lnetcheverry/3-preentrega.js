@@ -1,3 +1,11 @@
+body {
+    background-color: rgb(213, 226, 230);
+    height: 800px;
+   background-image: url(/img/logoPiu.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+  }
+
 h1 {
     color: #ab22d4;
 }
