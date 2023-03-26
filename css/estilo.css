@@ -1,7 +1,7 @@
 body {
     background-color: rgb(213, 226, 230);
     height: 800px;
-   background-image: url(/img/logoPiu.jpg);
+   background-image: url(./img/logoPiu.jpg);
    background-repeat: no-repeat;
    background-position: center center;
   }
