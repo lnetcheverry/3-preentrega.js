@@ -184,3 +184,22 @@ const calcularTotal = () => {
     })
     total.innerHTML = `Total $${totalCompra}`;
 }
+
+/** fetch **/
+
+const criptoYa = "https://criptoya.com/api/dolar";
+
+const divDolar = document.getElementById("divDolar");
+
+
+setInterval( () => {
+    fetch(criptoYa)
+        .then(response => response.json())
+        .then(({blue, ccl, mep, oficial, solidario, ccb}) => {
+            divDolar.innerHTML = `
+                <h5>Tipos de Dolar: </h5>
+                <p>Dolar oficial: ${oficial}, Dolar solidario: ${solidario}, Dolar BLUE: ${blue} </p>
+            `
+        })
+        .catch(error => console.log(error))
+}, 4000)

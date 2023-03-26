@@ -19,6 +19,14 @@ h3 {
 h4 {
     color: #ab22d4;
 }
+h5 {
+    color: #ab22d4;
+    text-align: center;
+}
+p {
+    color: #ab22d4;
+    text-align: center;
+}
 .imgProductos {
     width: 125px;
     height: 125px;
