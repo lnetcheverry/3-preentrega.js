@@ -1,4 +1,4 @@
-//CREAMOS UN INICIO DE SESIÓN 
+// INICIO DE SESIÓN 
 
 const botonUno = document.getElementById("botonUno"); 
 
@@ -19,9 +19,9 @@ botonUno.addEventListener("click", ()=> {
             const usuario = document.getElementById("usuario").value;
             const password = document.getElementById("password").value;
 
-            //Si quiero enviarte a otra página: 
+            //Envio a otra página: 
             if(usuario === usuarioAutorizado && password === passwordAutorizado){
-                window.location.href = "/carrito.html";
+                window.location.href = "./carrito.html";
             }
         }
     })
